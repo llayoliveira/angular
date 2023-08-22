@@ -15,3 +15,15 @@
 
 <div [hidden]="!mostrarCursos">Lista de Cursos aqui.</div>
 <div [hidden]="mostrarCursos">Não existem cursos para serem listados.</div>
+
+
+
+<h5>Removendo o * e usando template</h5>
+
+<div *ngIf="mostrarCursos">1 - Lista de Cursos aqui.</div>
+
+<template [ngIf]="mostrarCursos">
+    <div>2 - Lista de Cursos aqui.</div>
+</template>
+
+<div template="ngIf mostrarCursos">3 - Lista de Cursos aqui.</div>
