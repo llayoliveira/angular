@@ -12,6 +12,9 @@ import { DiretivaNgswitchComponent } from './diretiva-ngswitch/diretiva-ngswitch
 import { TesteComponent } from './teste/teste.component';
 import { OperadorElvisComponent } from './operador-elvis/operador-elvis.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
+import { FundoAmareloDirective } from './shared/fundo-amarelo.directive';
+import { DiretivasCutomizadasComponent } from './diretivas-cutomizadas/diretivas-cutomizadas.component';
+import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
 
 
 @NgModule({
@@ -24,7 +27,10 @@ import { NgContentComponent } from './ng-content/ng-content.component';
     DiretivaNgclassComponent,
     DiretivaNgstyleComponent,
     OperadorElvisComponent,
-    NgContentComponent
+    NgContentComponent,
+    FundoAmareloDirective,
+    DiretivasCutomizadasComponent,
+    HighlightMouseDirective
   ],
   imports: [
     BrowserModule,
