@@ -10,6 +10,7 @@ import { DiretivaNgifComponent } from './diretiva-ngif/diretiva-ngif.component';
 import { DiretivaNgstyleComponent } from './diretiva-ngstyle/diretiva-ngstyle.component';
 import { DiretivaNgswitchComponent } from './diretiva-ngswitch/diretiva-ngswitch.component';
 import { TesteComponent } from './teste/teste.component';
+import { OperadorElvisComponent } from './operador-elvis/operador-elvis.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { TesteComponent } from './teste/teste.component';
     DiretivaNgswitchComponent,
     DiretivaNgforComponent,
     DiretivaNgclassComponent,
-    DiretivaNgstyleComponent
+    DiretivaNgstyleComponent,
+    OperadorElvisComponent
   ],
   imports: [
     BrowserModule,
